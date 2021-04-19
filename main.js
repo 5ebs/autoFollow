@@ -13,7 +13,7 @@
     );
     const nextButton = buttons[i];
     nextButton.click();
-    i += 1;
+    i ++;
 
     newFollowed++;
     console.log(`New people I follow: ${newFollowed}`);
